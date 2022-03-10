@@ -54,7 +54,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgba(51, 51, 51, 0);
 }
   
 li {
@@ -68,9 +67,17 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: x-large;
-    font-family: arial;
+    font-family: Helvetica;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #f2ba1382;
+}
+
+h1 {
+    display: flex;
+    color: black ;
+    font-family: Helvetica;
+    font-size: small;
+    align-content: flex-end;
 }
