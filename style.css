@@ -54,6 +54,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    padding: 20px;
 }
   
 li {
@@ -71,8 +72,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #9f9f9f56;
-    color: white;
+    color: #9f9f9f56;
 }
 
 h1 {
@@ -91,8 +91,12 @@ h2 {
 
 .designs {
     padding: 100px;
+    color: black ;
+    font-family: Helvetica;
 }
 
 .products {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
