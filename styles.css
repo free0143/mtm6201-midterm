@@ -43,3 +43,11 @@ h2 {
     font-size: small;
     align-content: flex-end;
 }
+
+/* media queries */
+
+@media screen and (max-width: 960px) {
+    body {
+      background-image: url(../mtm6201-midterm/images/mobile.jpg);
+    }
+  }
