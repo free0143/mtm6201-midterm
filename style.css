@@ -72,7 +72,7 @@ li a {
 }
 
 li a:hover {
-    color: #9f9f9f56;
+    color: #ffffff56;
 }
 
 h1 {
@@ -99,13 +99,4 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex-grow: 1;
 }
