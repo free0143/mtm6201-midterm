@@ -140,6 +140,7 @@ h1 {
 .design {
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
   
 .icon{
@@ -179,6 +180,18 @@ h1 {
 #text {
     padding-right: 100px;
 }
+
+/* ANIMATION */
+
+.design:hover { 
+    transform: scale(1.2);
+    transition: transform 1s;
+  }
+
+.banner:hover {
+    transform: scale(.8);
+    transition: transform 3s;
+  }
 
 /* ABOUT AND DESIGN MEDIA QUERIES */
 
