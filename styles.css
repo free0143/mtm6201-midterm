@@ -1,3 +1,5 @@
+/* HOME PAGE CSS BECAUSE IT WAS EASIER TO MAKE A NEW CSS FOR IT */
+
 body {
     background-image: url(../mtm6201-midterm/images/background.jpg);
     background-repeat: no-repeat;
@@ -44,10 +46,12 @@ h2 {
     align-content: flex-end;
 }
 
-/* media queries */
+/* MEDIA QUERIES FOR THE HOME PAGE */
 
 @media screen and (max-width: 960px) {
+
     body {
       background-image: url(../mtm6201-midterm/images/mobile.jpg);
     }
+
   }

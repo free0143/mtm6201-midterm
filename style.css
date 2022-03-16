@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* my code below */
+/* MY CODE BELOW */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -99,15 +99,15 @@ h1 {
     padding: 100px;
 }
 
-/*design page using old coding from past lesson*/
+/* DESIGN AND SHOP CSS USING CODING FROM GRID LESSON */
 
-.emoji {
+.design {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
 }
   
-.emoji h2 {
+.design h2 {
     margin: 0;
     border-bottom: 4px solid #f98388;
     font-weight: bolder;
@@ -117,7 +117,7 @@ h1 {
     padding-right: 20px;
 }
   
-.emoji button {
+.design button {
     text-decoration: none;
     background-color: #e15771;
     color: white;
@@ -130,14 +130,14 @@ h1 {
     font-size: 4rem;
   }
   
-.emojis{
+.shop{
     display: grid;
     grid-template-columns: repeat(3, 417px);
     gap: 16px;
     justify-content: center;
 }
   
-.emoji {
+.design {
     display: flex;
     flex-direction: column;
 }
@@ -147,9 +147,62 @@ h1 {
     align-self: center;
 }
   
-.emoji p {
+.design p {
     flex-grow: 1;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
 }
+
+/* ABOUT PAGE FLEX BOX */
+
+.about {
+    background-image: url(../mtm6201-midterm/images/pink_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+}
+
+.images {
+    display: flex;
+    flex-direction:row-reverse;
+}
+
+#heading {
+    font-weight: bolder;
+}
+
+#text {
+    padding-right: 100px;
+}
+
+/* ABOUT AND DESIGN MEDIA QUERIES */
+
+@media screen and (max-width: 960px) {
+
+    .about {
+      background-image: url(../mtm6201-midterm/images/pink_background.jpg);
+      justify-content: center;
+    }
+
+    .flexbox  {
+        flex-direction: column-reverse;
+    }
+
+    #text{
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.322);
+    }
+
+    .images {
+        width: 80%;
+        border: 2px solid black;
+    }
+
+  }
+
+  /* SO I TRIED TO DO THE DESIGN PAGE MEDIA QUERIES, BUT I HAVE NO CLUE HOW TO MAKE THE GRID INTO ONE STRIGHT LINE FOR MOBILE FORMATTING */
